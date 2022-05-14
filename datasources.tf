@@ -2,7 +2,7 @@
 # aws ami (owners = select ami id to find owner id)
 data "aws_ami" "server_ami" {
   most_recent = true
-  owners      = ["099720109477"]
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
